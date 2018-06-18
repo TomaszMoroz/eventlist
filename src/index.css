@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: rgb(224, 224, 224);
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+.taskForm{
+  background: lightgray;
+  padding: 20px;
+}
+
+.Task{
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+  height: 100px;
+  background: #a8a8a844;
+  letter-spacing: 7px;
+  border-radius: 10px;
+  border: #7e75c223 solid 2px;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 25px;
+  color: #534f18;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 1.5s ease-in;
+}
